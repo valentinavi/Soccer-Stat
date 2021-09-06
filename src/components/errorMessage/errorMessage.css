@@ -1,0 +1,19 @@
+.my-error {
+   display: block;
+}
+
+.my-error div {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-error  img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

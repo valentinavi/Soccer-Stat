@@ -1,0 +1,18 @@
+.app {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: url('bg1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+  }
+
+  .row {
+    align-items: center;
+    width: 100%;
+  } 
+ 

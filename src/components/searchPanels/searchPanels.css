@@ -1,0 +1,76 @@
+.row {
+  width: 100%;
+  margin: 0% 0% 1% 0;
+}
+
+label {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.search-panel {
+    margin: 1rem 0;
+}
+
+  .search-panel .search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+  }
+  
+.date {
+    width: 80%;
+  }
+
+  .date input {
+    width: 21%;
+    margin: 10px;
+    height: 2em;
+    border-radius: 5px;
+  }
+
+  .date input:hover {
+    border-color: blue; 
+  }
+
+  .date input:last-child {
+      width: 10%;
+  }
+
+.search-by-year {
+  width: 50%;
+}
+  .search-by-year label {
+    margin-right: 20px;
+  }
+  .search-by-year select {
+    width: 15%;
+  }
+
+  .search-by-year input {
+    width: 15%;
+    margin-left: 10px;
+  }
+
+.search-by-name {
+  width: 70%;
+}
+
+  .search-by-name input {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .search-by-name input:hover {
+    border-color: blue;
+  }
+
+  .search-by-name input:last-child {
+    width: 15%;
+    margin-left: 10px;
+  }
+
+  .message {
+    color: #fff;
+    font-size: 18px;
+  }

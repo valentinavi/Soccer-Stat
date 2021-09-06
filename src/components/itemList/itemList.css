@@ -1,0 +1,53 @@
+h2 {
+    color: yellow;
+    margin: 0px; 
+    font-size: 20px;
+}
+.button-wrapper {
+    position: absolute;
+    display: block;
+    right: 1%;
+}
+.btn {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    line-height: 1;
+    font-size: 14px;
+    text-align: center;
+}
+    .btn:hover {
+        background: #ccc;
+    }
+
+    .btn-left {
+        right: 3%;  
+    }
+
+    .btn-right {
+        right: 15%;
+    }
+
+ul li.my-style-li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px;
+    align-items: center;
+    padding: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+    ul li.my-style-li:hover {
+        color: red;
+    }
+
+    .my-style-li div {
+        flex-basis: 11%;
+        text-align: center;
+    }
